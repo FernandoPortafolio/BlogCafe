@@ -9,9 +9,9 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.6rem;
-  line-height: 2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
 }
 
 /* ====================== GLOBALES =============== */
@@ -209,7 +209,7 @@ img {
   }
   .cursos {
     flex-basis: calc(33.3% - 4rem);
-    order: 2;
+    order: 2; 
   }
 }
 /* =============================================== */
@@ -252,7 +252,7 @@ img {
 /* ====================== Footer =============== */
 .site-footer {
   background-color: #000000;
-  padding: 3rem;
+  padding: 3rem 3rem 0 3rem;
   margin-top: 4rem;
 }
 
@@ -265,6 +265,10 @@ img {
 }
 .site-footer p span {
   font-weight: 700;
+}
+.site-footer .desarrollador {
+  font-size: 1.4rem;
+  margin: 0;
 }
 /* =============================================== */
 
